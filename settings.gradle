@@ -1,4 +1,7 @@
 include ':lib1'
+project(":lib1").projectDir = file("lib1_repo/lib1")
 include ':lib2'
+project(":lib2").projectDir = file("lib2_repo/lib2")
+
 include ':app'
-rootProject.name = "My Application"
+rootProject.name = "app"

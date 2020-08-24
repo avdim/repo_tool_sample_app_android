@@ -1,0 +1,15 @@
+{
+  "remote": "origin",
+  "dirs": [
+    {
+      "dir": "lib1_repo",
+      "gitUri": "git@github.com:avdim/repo_tool_sample_lib1.git",
+      "ref": "master"
+    },
+    {
+      "dir": "lib2_repo",
+      "gitUri": "git@github.com:avdim/repo_tool_sample_lib2.git",
+      "ref": "master"
+    }
+  ]
+}
